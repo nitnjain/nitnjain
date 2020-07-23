@@ -1,10 +1,4 @@
-## Hi there 👋 I'm Nitin!
-### I'm learning Javascript.
-
-
-I'm doing the #100DaysOfCode challenge, I'll be spending 100 days learning to code and I'll be documenting my journey here.
-
-### #100DaysOfCode Progress Table :white_check_mark:
+## Nitin's 100DaysOfCode Challenge :white_check_mark:
 
 Day | Date | Status | Goal | Description
 ----|------|--------|------|------------

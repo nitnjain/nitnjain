@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: #212121;
+            background-color: #e6ee9c;
+            font-family: 'Poppins', serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            background-color: #e0e0e0;
+        }
+        .imageCon {
+            width: 50%;
+            position: relative;
+        }
+        .matterCon {
+            width: 50%;
+            padding: 10px;
+        }
+        #title {
+            text-align: center;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        #img-div {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #image {
+            border: 10px solid #212121;
+            margin: 0 auto;
+        }
+        .responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        #tribute-link {
+            text-align: center;
+            text-decoration: none;
+            background-color: #212121;
+            color: #eee;
+            padding: 10px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="imageCon">
+            <figure id="img-div">
+                <img class="responsive" alt="Poster of Borat's first movie film" id="image" src="https://upload.wikimedia.org/wikipedia/en/3/39/Borat_ver2.jpg">
+                <figcaption id="img-caption">Poster of Borat's first movie film: <em>Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan</em></figcaption>
+            </figure>
+        </div>
+        <div class="matterCon">
+            <h1 id="title">Borat Sagdiyev</h1>
+            <h2 style="text-align: center;">(Kazakh: Борат Сағдиев)</h2>
+            <div id="tribute-info" style="text-align: center; padding-bottom: 5px;">
+                <p>Cultural ambassador for Glorious Nation of Kazakhstan</p>
+                <p>Journalist, Broadcaster, Singer, Actor, Ping Pong player, Global Ambassador for Kazhakstan</p>
+                <span style="text-align: left;"><p><strong>Words by Borat to live by:</strong></p></span>
+                <p><q>Kazakhstan is the greatest country in the world; all other countries are run by little girls.</q></p>
+                <p><q>Democracy is different in America. For example, women can vote but horse can not!</q></p>
+                <p><q>I go to America!</q></p>
+            </div>
+            <p style="text-align: center;"><a id="tribute-link" href="#" target="_blank">Click to know more about Borat</a></p>
+            <p><em>Note: Quotes and information displayed here are fictional and meant to be satirical and are directly taken from the movie Borat (2006)</em></p>
+        </div>
+    </div>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
